@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
         categories.add("Kalem");
         categories.add("Silgi");
         categories.add("Defter");
+        categories.add("Kitap");
+
 
         ArrayAdapter<String> dataAdapter;
         dataAdapter = new ArrayAdapter(this, android.R.layout.simple_spinner_item);
